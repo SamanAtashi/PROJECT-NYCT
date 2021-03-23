@@ -57,7 +57,7 @@ button {
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 #except-nav {
 	border: 10px solid red;
-	width: 600px;
+	width: 1200px;
 	display: flex;
 	flex-direction: column;
 }
@@ -69,8 +69,10 @@ img {
 	width: 100%;
 }
 main {
+    border: 5px solid rgb(0, 174, 255);
 	display: flex;
 	flex-direction: column;
+    align-items:center;
 }
 /* 
 ?-------> Header 
@@ -89,6 +91,7 @@ h1 {
 */
 article {
 	border: 5px solid rgb(17, 0, 255);
+	width: 600px;
 }
 p {
 	color: rgb(45, 45, 45);
@@ -102,6 +105,7 @@ li {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 16px;
+	list-style: none;
 }
 h4 {
 	color: rgb(45, 45, 45);
@@ -110,4 +114,33 @@ h4 {
 	font-size: 20px;
 	line-height: 30px;
 }
+/* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/*
+?                <<<<<<<<<<<<<<< Footer >>>>>>>>>>>>>>>
+? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
+ */
+footer {
+	border: 5px solid black;
+	width: 100%
+	display: flex;
+	flex-wrap: wrap;
+}
+#footer-nav {
+	flex-basis: 100%;
+	padding: 10px;
+}
+#main-footer {
+	flex-basis: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+#discriptive-footer {
+	flex-basis: 100%;
+    padding: 10px;
+}
+#discriptive-footer ul{
+    display: flex;
+
+}
+
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
