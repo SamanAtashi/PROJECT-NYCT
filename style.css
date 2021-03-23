@@ -75,8 +75,12 @@ main {
     align-items:center;
 }
 /* 
-?-------> Header 
+?-------> Head of article
 */
+#head-and-icons{
+    width: 600px;
+    border: 5px solid palevioletred
+}
 h1 {
 	color: rgb(19, 19, 19);
 	font-family: "cheltenham-italic-700";
@@ -85,7 +89,6 @@ h1 {
 	line-height: 48px;
 	border: 5px solid orange;
 }
-
 /* 
 ?-------> Articles
 */
