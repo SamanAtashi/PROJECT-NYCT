@@ -7,7 +7,11 @@
 }
 /* tinos = imperial font */
 @import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
-/* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< NAVBAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*
+?                <<<<<<<<<<<<<<< NAVBAR >>>>>>>>>>>>>>>
+? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
+ */
 * {
 	margin: 0;
 	padding: 0;
@@ -15,7 +19,21 @@
 }
 body {
 	background-color: white;
+	width: 100%;
+	height: 100%;
+	border: 10px solid greenyellow;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
+/* 
+?-------Header
+*/
+/* header {
+	border-top: 4px solid purple;
+} */
 #cosmos {
 	color: black;
 	font-family: "Libre Franklin", sans-serif;
@@ -32,6 +50,22 @@ button {
 	font-size: 14px;
 	line-height: 19px;
 }
+
+/* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/*
+?                <<<<<<<<<<<<<<< Main >>>>>>>>>>>>>>>
+? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
+ */
+#except-nav {
+	border: 10px solid red;
+	width: 50%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+}
+img {
+	width: 100px;
+}
 h1 {
 	color: rgb(19, 19, 19);
 	font-family: "cheltenham-italic-700";
@@ -39,7 +73,9 @@ h1 {
 	font-size: 40px;
 	line-height: 48px;
 }
-
+/* 
+?-------Articles
+*/
 p {
 	color: rgb(45, 45, 45);
 	font-family: "Tinos", serif;
@@ -53,9 +89,6 @@ li {
 	font-size: 14px;
 	line-height: 16px;
 }
-
-/* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-/* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Main >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 h4 {
 	color: rgb(45, 45, 45);
 	font-family: "Tinos", serif;
