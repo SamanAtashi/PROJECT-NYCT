@@ -6,6 +6,10 @@
 	src: url(font/cheltenham-italic-700.ttf);
 }
 @font-face {
+	font-family: "cheltenham-normal-700";
+	src: url(font/cheltenham-normal-700.ttf);
+}
+@font-face {
 	font-family: "cheltenham-normal-500";
 	src: url(font/cheltenham-normal-500.ttf);
 }
@@ -42,7 +46,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	overflow: hidden;
+	z-index: 2;
 }
 header .nav-content-wrapper {
 	width: 1605px;
@@ -219,17 +223,41 @@ main figure figcaption span {
 	font-size: 13px;
 	color: #888;
 }
+/* 
+?--------------------------------> 1st main pic
+*/
 #first-image {
 	width: 1200px;
 	height: 675px;
 	margin: 100px;
 }
-
-#second-image {
+/* 
+?--------------------------------> 2nd main pic
+*/
+#detailed-pic {
 	width: 945px;
-	height: 576px;
-	margin: 100px;
+	height: 752px;
 }
+#detailed-pic .detailed-pic-head {
+	width: 945px;
+	height: 62px;
+}
+#detailed-pic .detailed-pic-head h4 {
+	font-family: "cheltenham-normal-700";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+}
+#detailed-pic .detailed-pic-head p {
+	font-family: "Tinos", serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgb(102, 102, 102);
+}
+/* 
+?--------------------------------> 3rd main pic
+*/
 #third-image {
 	width: 720px;
 	height: 481px;
@@ -244,13 +272,13 @@ main figure figcaption span {
 aside {
 	width: 230px;
 	height: 321px;
-	border: 10px solid orange;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	position: absolute;
 	left: 1400px;
-	top: 4200px;
+	top: 2200px;
 }
 aside h5 {
 	font-family: "Libre Franklin", sans-serif;
