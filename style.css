@@ -275,10 +275,11 @@ dd {
 Todo -------------> side-footer
 */
 #middle-footer .side-footer {
-	border: 3px solid rgb(0, 255, 34);
+	padding-left: 15px;
+	border-left: 1px solid gray;
 	display: flex;
 	flex-direction: column;
-
+	justify-content: space-between;
 	width: 197px;
 	height: 385px;
 }
@@ -289,7 +290,7 @@ Todo -------------> side-footer
 	line-height: 15px;
 	width: 197px;
 	height: 23px;
-	margin: 2px 0px;
+	margin: 3px 0px;
 	display: flex;
 	flex-direction: column;
 	display: inline-block;
@@ -303,12 +304,14 @@ Todo -------------> side-footer
 	height: 15px;
 	margin-right: 5px;
 }
-
+#middle-footer .side-footer .normal-links {
+}
 #middle-footer .side-footer .normal-links a {
 	font-family: "Libre Franklin", sans-serif;
 	font-size: 11px;
 	width: 150px;
 	height: 23px;
+	margin: 3px 0px;
 	display: flex;
 	flex-direction: column;
 }
