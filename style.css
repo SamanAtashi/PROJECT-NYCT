@@ -200,11 +200,27 @@ h4 {
 	font-size: 20px;
 	line-height: 30px;
 }
+main figure {
+	font-family: "Tinos", serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgb(102, 102, 102);
+}
+main figure figcaption {
+	width: 850px;
+	margin: 4px 0px;
+}
+main figure figcaption span {
+	font-size: 13px;
+	color: #888;
+}
 #first-image {
 	width: 1200px;
 	height: 675px;
 	margin: 100px;
 }
+
 #second-image {
 	width: 945px;
 	height: 576px;
@@ -214,6 +230,9 @@ h4 {
 	width: 720px;
 	height: 481px;
 	margin: 100px;
+}
+#third-image figcaption {
+	width: 700px;
 }
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /*
