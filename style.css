@@ -8,10 +8,6 @@
 /* tinos = imperial font */
 @import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 
-/*
-?                <<<<<<<<<<<<<<< NAVBAR >>>>>>>>>>>>>>>
-? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
- */
 * {
 	margin: 0;
 	padding: 0;
@@ -27,19 +23,47 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-/* 
-?-------Header
-*/
+
+/*
+?                <<<<<<<<<<<<<<< NAVBAR >>>>>>>>>>>>>>>
+? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
+ */
 header {
 	width: 100%;
-	border: 4px solid purple;
+	height: 43px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
+	border-bottom: 1px solid #ccc;
 }
-header .top-center a img{
-	width: 195px;
-	height: 26.48px ;
+header .nav-content-wrapper{
+	width: 1605px;
+	height:26px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 135px;
+	padding: 4px 15px 2px;
+}
+ /* 
+?--------------------------------> Left
+*/
+header .nav-content-wrapper .top-left{
+	width:fit-content;
+	height: 26px;
+	display: flex;
+	justify-content:space-between;
+}
+header .top-left a[href="menu"] img {
+	width: 17px;
+	height: 17px;
+	margin-right: 13px;
+}
+header .top-left a[href="search"] img{
+	width: 17px;
+	height: 17px;
+	margin-right: 13px;
+	margin-left: 13px;
 }
 #cosmos {
 	color: black;
@@ -47,7 +71,19 @@ header .top-center a img{
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 19px;
+	margin-left: 13px;
+	text-decoration: none;
 }
+ /* 
+?--------------------------------> Center
+*/
+header .top-center a img{
+	width: 195px;
+	height: 26.48px ;
+}
+ /* 
+?--------------------------------> Right
+*/
 header .top-right button {
 	color: white;
 	background-color: rgb(86, 123, 149);
@@ -92,7 +128,7 @@ main {
     align-items:center;
 }
 /* 
-?-------> Head of article
+?--------------------------------> Head of article
 */
 #head-and-icons{
     width: 600px;
@@ -107,7 +143,7 @@ h1 {
 	border: 5px solid orange;
 }
 /* 
-?-------> Articles
+?--------------------------------> Articles
 */
 article {
 	border: 5px solid rgb(17, 0, 255);
