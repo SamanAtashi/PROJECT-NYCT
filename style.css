@@ -106,7 +106,7 @@ header .top-right button:nth-child(2) {
 }
 
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-#except-nav {
+#main {
 	border: 10px solid red;
 	width: 1200px;
 	display: flex;
@@ -166,7 +166,6 @@ h1 {
 	width: 17px;
 	height: 17px;
 }
-
 /* 
 ?--------------------------------> Articles
 */
@@ -217,24 +216,53 @@ h4 {
  */
 footer {
 	border: 5px solid black;
-	width: 100%;
+	width: 1200px;
+	height: 443px;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
 }
-#footer-nav {
+footer a {
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
+}
+/* 
+?--------------------------------> Head of footer
+*/
+#footer-head {
+	border: 5px solid green;
+	display: flex;
 	flex-basis: 100%;
+	justify-content: space-between;
 	padding: 10px;
+	height: 44px;
 }
-#main-footer {
+#footer-head img {
+	width: 184px;
+	height: 24px;
+}
+/* 
+?--------------------------------> Main body
+*/
+#middle-footer {
+	border: 5px solid rgb(255, 0, 255);
 	flex-basis: 100%;
 	display: flex;
 	justify-content: space-between;
 }
-#discriptive-footer {
+#middle-footer .main-footer {
+	display: flex;
+}
+/* 
+?--------------------------------> Lower part of footer
+*/
+#lower-footer {
+	border: 5px solid orange;
 	flex-basis: 100%;
 	padding: 10px;
 }
-#discriptive-footer ul {
+#lower-footer ul {
 	display: flex;
 }
 
