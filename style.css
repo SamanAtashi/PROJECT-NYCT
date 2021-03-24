@@ -37,6 +37,10 @@ header {
 	justify-content: space-around;
 	align-items: center;
 }
+header .top-center a img{
+	width: 195px;
+	height: 26.48px ;
+}
 #cosmos {
 	color: black;
 	font-family: "Libre Franklin", sans-serif;
