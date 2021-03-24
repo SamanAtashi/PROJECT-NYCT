@@ -217,7 +217,6 @@ h4 {
 ? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
  */
 footer {
-	border: 5px solid black;
 	width: 1200px;
 	height: 443px;
 	display: flex;
@@ -238,6 +237,7 @@ footer a {
 	justify-content: space-between;
 	padding: 10px;
 	height: 44px;
+	border-top: 4px double black;
 }
 #footer-head img {
 	width: 184px;
@@ -247,7 +247,6 @@ footer a {
 ?--------------------------------> Main body
 */
 #middle-footer {
-	border: 5px solid rgb(255, 0, 255);
 	flex-basis: 100%;
 	display: flex;
 }
@@ -256,9 +255,9 @@ Todo -------------> main-footer
 */
 #middle-footer .main-footer {
 	display: flex;
+	margin-top: 10px;
 }
 dl {
-	border: 3px solid blue;
 	width: 197px;
 	height: 385px;
 }
@@ -304,8 +303,7 @@ Todo -------------> side-footer
 	height: 15px;
 	margin-right: 5px;
 }
-#middle-footer .side-footer .normal-links {
-}
+
 #middle-footer .side-footer .normal-links a {
 	font-family: "Libre Franklin", sans-serif;
 	font-size: 11px;
@@ -321,7 +319,11 @@ Todo -------------> side-footer
 */
 #lower-footer {
 	flex-basis: 100%;
+	width: 1200px;
+	height: 66px;
+	margin: 10px;
 	padding: 10px;
+	border-top: 1px solid black;
 }
 #lower-footer ul {
 	display: flex;
