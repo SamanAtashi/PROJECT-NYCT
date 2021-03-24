@@ -198,7 +198,16 @@ h4 {
 #first-image {
 	width: 1200px;
 	height: 675px;
-	display: inline;
+	margin: 100px;
+}
+#second-image {
+	width: 945px;
+	height: 576px;
+	margin: 100px;
+}
+#third-image {
+	width: 1200px;
+	height: 675px;
 	margin: 100px;
 }
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
