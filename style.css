@@ -255,6 +255,9 @@ main figure figcaption span {
 	line-height: 20px;
 	color: rgb(102, 102, 102);
 }
+#second-image {
+	margin: 15px 0px;
+}
 /* 
 ?--------------------------------> 3rd main pic
 */
