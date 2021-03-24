@@ -115,6 +115,7 @@ header .top-right button:nth-child(2) {
 	width: 1200px;
 	display: flex;
 	flex-direction: column;
+	border: 5px solid red;
 }
 /*
 ?                <<<<<<<<<<<<<<< Main >>>>>>>>>>>>>>>
@@ -128,6 +129,7 @@ main {
 	flex-direction: column;
 	align-items: center;
 	margin-top: 60px;
+	border: 5px solid rgb(60, 255, 0);
 }
 /* 
 ?--------------------------------> Head of article
@@ -233,6 +235,14 @@ main figure figcaption span {
 }
 #third-image figcaption {
 	width: 700px;
+}
+/* 
+?--------------------------------> Aside
+*/
+aside {
+	width: 210px;
+	height: 321px;
+	border: 10px solid orange;
 }
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /*
