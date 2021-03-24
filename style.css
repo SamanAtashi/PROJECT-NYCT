@@ -289,12 +289,19 @@ Todo -------------> side-footer
 	line-height: 15px;
 	width: 197px;
 	height: 23px;
+	margin: 2px 0px;
 	display: flex;
 	flex-direction: column;
+	display: inline-block;
 }
 #middle-footer .side-footer .bold-links a:nth-child(1) {
 	font-weight: 600;
 	font-size: 13px;
+}
+#middle-footer .side-footer .bold-links a img {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
 }
 
 #middle-footer .side-footer .normal-links a {
