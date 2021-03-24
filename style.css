@@ -17,7 +17,6 @@ body {
 	background-color: white;
 	width: 100%;
 	height: 100%;
-	border: 10px solid greenyellow;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -132,7 +131,6 @@ main {
 */
 #head-and-icons{
     width: 600px;
-    border: 5px solid palevioletred
 }
 h1 {
 	color: rgb(19, 19, 19);
@@ -140,8 +138,36 @@ h1 {
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 48px;
-	border: 5px solid orange;
+	padding-bottom: 20px;
+	padding-top: 40px;
+	border-bottom: 1px solid #ccc;
 }
+.icons{
+	width: 285px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.icons > *{
+	background-color: rgb(238, 238, 238);
+	border-radius: 50%;
+	border: 0;
+}
+.icons > *:hover{
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+	border: 1px solid black;
+}
+.single-icon{
+	width: 27px;
+	height: 27px;
+}
+.single-icon img{
+	width: 17px;
+	height: 17px;
+}
+
 /* 
 ?--------------------------------> Articles
 */
