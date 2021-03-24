@@ -180,7 +180,9 @@ p {
 	line-height: 30px;
 	margin-bottom: 15px;
 }
-li {
+li,
+dd,
+dt {
 	font-family: "Libre Franklin", sans-serif;
 	font-weight: 500;
 	font-size: 14px;
@@ -253,6 +255,20 @@ footer a {
 }
 #middle-footer .main-footer {
 	display: flex;
+}
+dl {
+	border: 3px solid blue;
+	width: 197px;
+	height: 385px;
+}
+dt {
+	width: 150px;
+	height: 25px;
+	font-weight: bold;
+}
+dd {
+	width: 150px;
+	height: 23px;
 }
 /* 
 ?--------------------------------> Lower part of footer
