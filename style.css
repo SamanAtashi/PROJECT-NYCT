@@ -250,8 +250,10 @@ footer a {
 	border: 5px solid rgb(255, 0, 255);
 	flex-basis: 100%;
 	display: flex;
-	justify-content: space-between;
 }
+/* 
+Todo -------------> main-footer
+*/
 #middle-footer .main-footer {
 	display: flex;
 }
@@ -268,6 +270,16 @@ dt {
 dd {
 	width: 150px;
 	height: 23px;
+}
+/* 
+Todo -------------> side-footer
+*/
+#middle-footer .side-footer {
+	border: 3px solid rgb(0, 255, 34);
+	display: flex;
+	flex-direction: column;
+	width: 197px;
+	height: 385px;
 }
 /* 
 ?--------------------------------> Lower part of footer
