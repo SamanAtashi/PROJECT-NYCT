@@ -233,7 +233,6 @@ footer a {
 ?--------------------------------> Head of footer
 */
 #footer-head {
-	border: 5px solid green;
 	display: flex;
 	flex-basis: 100%;
 	justify-content: space-between;
@@ -274,12 +273,15 @@ dd {
 ?--------------------------------> Lower part of footer
 */
 #lower-footer {
-	border: 5px solid orange;
 	flex-basis: 100%;
 	padding: 10px;
 }
 #lower-footer ul {
 	display: flex;
+	justify-content: space-between;
+}
+#lower-footer ul li a {
+	font-size: 11px;
 }
 
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
