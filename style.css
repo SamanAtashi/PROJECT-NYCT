@@ -35,30 +35,30 @@ header {
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 }
-header .nav-content-wrapper{
+header .nav-content-wrapper {
 	width: 1605px;
-	height:26px;
+	height: 26px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin: 0 135px;
 	padding: 4px 15px 2px;
 }
- /* 
+/* 
 ?--------------------------------> Left
 */
-header .nav-content-wrapper .top-left{
-	width:fit-content;
+header .nav-content-wrapper .top-left {
+	width: fit-content;
 	height: 26px;
 	display: flex;
-	justify-content:space-between;
+	justify-content: space-between;
 }
 header .top-left a[href="menu"] img {
 	width: 17px;
 	height: 17px;
 	margin-right: 13px;
 }
-header .top-left a[href="search"] img{
+header .top-left a[href="search"] img {
 	width: 17px;
 	height: 17px;
 	margin-right: 13px;
@@ -73,14 +73,14 @@ header .top-left a[href="search"] img{
 	margin-left: 13px;
 	text-decoration: none;
 }
- /* 
+/* 
 ?--------------------------------> Center
 */
-header .top-center a img{
+header .top-center a img {
 	width: 195px;
-	height: 26.48px ;
+	height: 26.48px;
 }
- /* 
+/* 
 ?--------------------------------> Right
 */
 header .top-right button {
@@ -93,18 +93,17 @@ header .top-right button {
 	border-radius: 3px;
 	border-style: solid;
 }
-header .top-right button:hover{
+header .top-right button:hover {
 	background-color: rgb(50, 104, 145);
 }
-header .top-right button:nth-child(1){
+header .top-right button:nth-child(1) {
 	width: 119.25px;
 	height: 32px;
 }
-header .top-right button:nth-child(2){
+header .top-right button:nth-child(2) {
 	width: 63.41px;
 	height: 32px;
 }
-
 
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 #except-nav {
@@ -121,16 +120,16 @@ img {
 	width: 100%;
 }
 main {
-    border: 5px solid rgb(0, 174, 255);
+	border: 5px solid rgb(0, 174, 255);
 	display: flex;
 	flex-direction: column;
-    align-items:center;
+	align-items: center;
 }
 /* 
 ?--------------------------------> Head of article
 */
-#head-and-icons{
-    width: 600px;
+#head-and-icons {
+	width: 600px;
 }
 h1 {
 	color: rgb(19, 19, 19);
@@ -142,28 +141,28 @@ h1 {
 	padding-top: 40px;
 	border-bottom: 1px solid #ccc;
 }
-.icons{
+.icons {
 	width: 285px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	display: flex;
 	justify-content: space-between;
 }
-.icons > *{
+.icons > * {
 	background-color: rgb(238, 238, 238);
 	border-radius: 50%;
 	border: 0;
 }
-.icons > *:hover{
+.icons > *:hover {
 	background-color: rgb(255, 255, 255);
 	border-radius: 50%;
 	border: 1px solid black;
 }
-.single-icon{
+.single-icon {
 	width: 27px;
 	height: 27px;
 }
-.single-icon img{
+.single-icon img {
 	width: 17px;
 	height: 17px;
 }
@@ -172,7 +171,6 @@ h1 {
 ?--------------------------------> Articles
 */
 article {
-	border: 5px solid rgb(17, 0, 255);
 	width: 600px;
 }
 p {
@@ -181,6 +179,7 @@ p {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 30px;
+	margin-bottom: 15px;
 }
 li {
 	font-family: "Libre Franklin", sans-serif;
@@ -203,7 +202,7 @@ h4 {
  */
 footer {
 	border: 5px solid black;
-	width: 100%
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -218,11 +217,10 @@ footer {
 }
 #discriptive-footer {
 	flex-basis: 100%;
-    padding: 10px;
+	padding: 10px;
 }
-#discriptive-footer ul{
-    display: flex;
-
+#discriptive-footer ul {
+	display: flex;
 }
 
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
