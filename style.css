@@ -251,7 +251,7 @@ main #additional-name h5 {
 	margin-bottom: 15px;
 }
 
-section h4 {
+section div {
 	border-top: 1px solid #888;
 	width: 600px;
 	height: 100px;
@@ -261,7 +261,7 @@ section h4 {
 	justify-content: space-between;
 	align-items: center;
 }
-section h4 .sign-up-text {
+section div .sign-up-text {
 	width: 495px;
 	height: 41px;
 	font-family: "Tinos", serif;
@@ -270,7 +270,7 @@ section h4 .sign-up-text {
 	font-size: 17px;
 	line-height: 24px;
 }
-section h4 .sign-up-text span {
+section div .sign-up-text span {
 	font-family: "Libre Franklin", sans-serif;
 	font-weight: 700;
 	font-size: 14px;
@@ -278,7 +278,7 @@ section h4 .sign-up-text span {
 	font-style: normal;
 }
 
-section h4 .sign-up-btn {
+section div .sign-up-btn {
 	border: 1px solid black;
 	font-weight: 700;
 	border-radius: 5px;
