@@ -3,41 +3,41 @@
 
 /* cheltenham font */
 @font-face {
-	font-family: "cheltenham-italic-700";
-	src: url(font/cheltenham-italic-700.ttf);
+    font-family: "cheltenham-italic-700";
+    src: url(font/cheltenham-italic-700.ttf);
 }
 
 @font-face {
-	font-family: "cheltenham-normal-700";
-	src: url(font/cheltenham-normal-700.ttf);
+    font-family: "cheltenham-normal-700";
+    src: url(font/cheltenham-normal-700.ttf);
 }
 
 @font-face {
-	font-family: "cheltenham-normal-500";
-	src: url(font/cheltenham-normal-500.ttf);
+    font-family: "cheltenham-normal-500";
+    src: url(font/cheltenham-normal-500.ttf);
 }
 
 /* tinos = imperial font */
 @import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	background-color: white;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
-	width: 100%;
+    width: 100%;
 }
 
 /*
@@ -45,103 +45,103 @@ img {
 ? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
 */
 header {
-	width: 100%;
-	height: 43px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	background-color: white;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 2;
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 header .nav-content-wrapper {
-	width: 1605px;
-	height: 26px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 0 135px;
-	padding: 4px 15px 2px;
+    width: 1605px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 135px;
+    padding: 4px 15px 2px;
 }
 
 /*
 ?--------------------------------> Center
 */
 header .top-center a img {
-	width: 195px;
-	height: 26.48px;
+    width: 195px;
+    height: 26.48px;
 }
 
 /*
 ?--------------------------------> Left
 */
 header .nav-content-wrapper .top-left {
-	width: fit-content;
-	height: 26px;
-	display: flex;
-	justify-content: space-between;
+    width: fit-content;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header .top-left .menu img {
-	margin-right: 13px;
-	width: 17px;
-	height: 17px;
+    margin-right: 13px;
+    width: 17px;
+    height: 17px;
 }
 
 header .top-left .search img {
-	width: 17px;
-	height: 17px;
-	margin-right: 13px;
-	margin-left: 13px;
+    width: 17px;
+    height: 17px;
+    margin-right: 13px;
+    margin-left: 13px;
 }
 
 #cosmos {
-	color: black;
-	font-family: "Libre Franklin", sans-serif;
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 19px;
-	margin-left: 13px;
-	text-decoration: none;
+    color: black;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 13px;
+    text-decoration: none;
 }
 
 /*
 ?--------------------------------> Right
 */
 header .top-right button {
-	color: white;
-	background-color: rgb(86, 123, 149);
-	font-family: "Libre Franklin", sans-serif;
-	font-weight: 700;
-	font-size: 11px;
-	line-height: 11px;
-	border-radius: 3px;
-	border-style: solid;
+    color: white;
+    background-color: rgb(86, 123, 149);
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+    border-radius: 3px;
+    border-style: solid;
 }
 
 header .top-right button:hover {
-	background-color: rgb(50, 104, 145);
+    background-color: rgb(50, 104, 145);
 }
 
 header .top-right button:nth-child(1) {
-	width: 119.25px;
-	height: 32px;
+    width: 119.25px;
+    height: 32px;
 }
 
 header .top-right button:nth-child(2) {
-	width: 63.41px;
-	height: 32px;
+    width: 63.41px;
+    height: 32px;
 }
 
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 #main {
-	width: 1200px;
-	display: flex;
-	flex-direction: column;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
 }
 
 /*
@@ -150,243 +150,243 @@ header .top-right button:nth-child(2) {
 */
 
 main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
 }
 
 /*
 ?--------------------------------> Head of article
 */
 #head-and-icons {
-	width: 600px;
+    width: 600px;
 }
 
 h1 {
-	color: rgb(19, 19, 19);
-	font-family: "cheltenham-italic-700", Arial, Helvetica, sans-serif;
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 48px;
-	padding-bottom: 20px;
-	padding-top: 40px;
-	border-bottom: 1px solid #ccc;
+    color: rgb(19, 19, 19);
+    font-family: "cheltenham-italic-700", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    border-bottom: 1px solid #ccc;
 }
 
 .icons {
-	width: 285px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	display: flex;
-	justify-content: space-between;
+    width: 285px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.icons > * {
-	background-color: rgb(238, 238, 238);
-	border-radius: 50%;
-	border: 0;
+.icons>* {
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+    border: 0;
 }
 
-.icons > *:hover {
-	background-color: rgb(255, 255, 255);
-	border-radius: 50%;
-	border: 1px solid black;
+.icons>*:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
 .single-icon {
-	width: 27px;
-	height: 27px;
+    width: 27px;
+    height: 27px;
 }
 
 #head-and-icons .icons .single-icon img {
-	width: 17px;
-	height: 17px;
+    width: 17px;
+    height: 17px;
 }
 
 /*
 ?--------------------------------> Articles
 */
 section {
-	width: 600px;
+    width: 600px;
 }
 
 p {
-	color: rgb(45, 45, 45);
-	font-family: "Tinos", serif;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
-	margin-bottom: 15px;
+    color: rgb(45, 45, 45);
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
 }
 
 li,
 dd,
 dt {
-	font-family: "Libre Franklin", sans-serif;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 16px;
-	list-style: none;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    list-style: none;
 }
 
 h4 {
-	color: rgb(45, 45, 45);
-	font-family: "Tinos", serif;
-	font-weight: 700;
-	font-size: 20px;
-	line-height: 30px;
+    color: rgb(45, 45, 45);
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 main figure {
-	font-family: "Tinos", serif;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 20px;
-	color: rgb(102, 102, 102);
+    font-family: "Tinos", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(102, 102, 102);
 }
 
 main figure figcaption {
-	width: 850px;
-	margin: 4px 0;
+    width: 850px;
+    margin: 4px 0;
 }
 
 main figure figcaption span {
-	font-size: 13px;
-	color: #888;
+    font-size: 13px;
+    color: #888;
 }
 
 /*
 ?--------------------------------> 1st main pic
 */
 #first-image {
-	width: 1200px;
-	height: 675px;
-	margin: 100px;
+    width: 1200px;
+    height: 675px;
+    margin: 100px;
 }
 
 /*
 ?--------------------------------> 2nd main pic
 */
 #detailed-pic {
-	width: 945px;
-	height: 752px;
+    width: 945px;
+    height: 752px;
 }
 
 #detailed-pic .detailed-pic-head {
-	width: 945px;
-	height: 62px;
+    width: 945px;
+    height: 62px;
 }
 
 #detailed-pic .detailed-pic-head h4 {
-	font-family: "cheltenham-normal-700", Arial, Helvetica, sans-serif;
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 24px;
+    font-family: "cheltenham-normal-700", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
 }
 
 #detailed-pic .detailed-pic-head p {
-	font-family: "Tinos", serif;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 20px;
-	color: rgb(102, 102, 102);
+    font-family: "Tinos", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(102, 102, 102);
 }
 
 #second-image {
-	margin: 15px 0;
+    margin: 15px 0;
 }
 
 #detailed-pic .description {
-	width: 945px;
-	position: absolute;
-	display: flex;
-	flex-direction: column;
+    width: 945px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 
 #detailed-pic .description .upper-description {
-	width: 945px;
-	display: flex;
-	justify-content: space-between;
-	position: absolute;
-	top: 160px;
-	left: 0;
+    width: 945px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 160px;
+    left: 0;
 }
 
 #detailed-pic .description .lower-description {
-	width: 945px;
-	display: flex;
-	justify-content: space-between;
-	position: absolute;
-	top: 440px;
-	left: 0;
+    width: 945px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 440px;
+    left: 0;
 }
 
 #detailed-pic .description p {
-	width: 228px;
-	height: 120px;
-	font-size: 9px;
+    width: 228px;
+    height: 120px;
+    font-size: 9px;
 }
 
 /*
 ?--------------------------------> 3rd main pic
 */
 #third-image {
-	width: 720px;
-	height: 481px;
-	margin: 100px;
+    width: 720px;
+    height: 481px;
+    margin: 100px;
 }
 
 #third-image figcaption {
-	width: 700px;
+    width: 700px;
 }
 
 /*
 ?--------------------------------> Aside
 */
 aside {
-	width: 230px;
-	height: 321px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	position: absolute;
-	left: 1400px;
-	top: 2200px;
+    width: 230px;
+    height: 321px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 1400px;
+    top: 2200px;
 }
 
 aside h5 {
-	font-family: "Libre Franklin", sans-serif;
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 14px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid black;
-	margin-bottom: 2px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
 }
 
 aside div {
-	width: 210px;
-	height: 78px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    width: 210px;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 aside div a {
-	width: 125px;
-	height: 68px;
-	color: black;
-	text-decoration: none;
-	font-family: "cheltenham-normal-500", Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	line-height: 17px;
+    width: 125px;
+    height: 68px;
+    color: black;
+    text-decoration: none;
+    font-family: "cheltenham-normal-500", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 #main #aside div img {
-	width: 75px;
-	height: 75px;
-	margin-right: 12px;
+    width: 75px;
+    height: 75px;
+    margin-right: 12px;
 }
 
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -396,132 +396,132 @@ aside div a {
 ? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
 */
 footer {
-	width: 1200px;
-	height: 443px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+    width: 1200px;
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer div a {
-	color: black;
-	text-decoration: none;
-	font-size: 14px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 /*
 ?--------------------------------> Head of footer
 */
 #footer-head {
-	display: flex;
-	flex-basis: 100%;
-	justify-content: space-between;
-	padding: 10px;
-	height: 44px;
-	border-top: 4px double black;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    height: 44px;
+    border-top: 4px double black;
 }
 
 footer #footer-head #footer-head-pic {
-	width: 184px;
-	height: 24px;
+    width: 184px;
+    height: 24px;
 }
 
 /*
 ?--------------------------------> Lower part of footer
 */
 #lower-footer {
-	flex-basis: 100%;
-	width: 1200px;
-	height: 66px;
-	margin: 10px;
-	padding: 10px;
-	border-top: 1px solid black;
+    flex-basis: 100%;
+    width: 1200px;
+    height: 66px;
+    margin: 10px;
+    padding: 10px;
+    border-top: 1px solid black;
 }
 
 #lower-footer ul {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 #lower-footer #lower-footer-list li a {
-	font-size: 11px;
+    font-size: 11px;
 }
 
 /*
 ?--------------------------------> Main body of footer
 */
 #middle-footer {
-	flex-basis: 100%;
-	display: flex;
+    flex-basis: 100%;
+    display: flex;
 }
 
 /*
 Todo -------------> main-footer
 */
 #middle-footer .main-footer {
-	display: flex;
-	margin-top: 10px;
+    display: flex;
+    margin-top: 10px;
 }
 
 dl {
-	width: 197px;
-	height: 385px;
+    width: 197px;
+    height: 385px;
 }
 
 dt {
-	width: 150px;
-	height: 25px;
-	font-weight: bold;
+    width: 150px;
+    height: 25px;
+    font-weight: bold;
 }
 
 dd {
-	width: 150px;
-	height: 23px;
+    width: 150px;
+    height: 23px;
 }
 
 /*
 Todo -------------> side-footer
 */
 #middle-footer .side-footer {
-	padding-left: 15px;
-	border-left: 1px solid gray;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 197px;
-	height: 385px;
+    padding-left: 15px;
+    border-left: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 197px;
+    height: 385px;
 }
 
 #middle-footer .side-footer #normal-links a {
-	font-family: "Libre Franklin", sans-serif;
-	font-size: 11px;
-	width: 150px;
-	height: 23px;
-	margin: 3px 0;
-	display: flex;
-	flex-direction: column;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 11px;
+    width: 150px;
+    height: 23px;
+    margin: 3px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 #middle-footer .side-footer #bold-links a {
-	font-family: "Libre Franklin", sans-serif;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 15px;
-	width: 197px;
-	height: 23px;
-	margin: 3px 0;
-	display: inline-block;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    width: 197px;
+    height: 23px;
+    margin: 3px 0;
+    display: inline-block;
 }
 
 #middle-footer .side-footer #bold-links a:nth-child(1) {
-	font-weight: 600;
-	font-size: 13px;
+    font-weight: 600;
+    font-size: 13px;
 }
 
 #middle-footer .side-footer #bold-links a img {
-	width: 15px;
-	height: 15px;
-	margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
 }
 
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */

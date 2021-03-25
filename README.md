@@ -1,4 +1,5 @@
 # PROJECT-NYCT
+
 > This project is a clone of the original website "nytimes.com".
 
 ![screenshot](./Screenshot 2021-03-25 at 12.00.21)
@@ -26,4 +27,4 @@ To get a local copy up and running:
 - Twitter: [@AtashiSaman](https://twitter.com/AtashiSaman)
 - LinkedIn: [@saman-atashi](https://www.linkedin.com/in/saman-atashi-9539911b0)
 
-🤝  Contributions, issues, and feature requests are welcome!
+🤝 Contributions, issues, and feature requests are welcome!
