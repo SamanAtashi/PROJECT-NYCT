@@ -207,7 +207,8 @@ h1 {
 /*
 ?--------------------------------> Sections
 */
-section {
+section,
+#intro {
 	width: 600px;
 }
 
@@ -251,7 +252,7 @@ main #additional-name h5 {
 	margin-bottom: 15px;
 }
 
-section div {
+#intro div {
 	border-top: 1px solid #888;
 	width: 600px;
 	height: 100px;
@@ -261,7 +262,7 @@ section div {
 	justify-content: space-between;
 	align-items: center;
 }
-section div .sign-up-text {
+#intro div .sign-up-text {
 	width: 495px;
 	height: 41px;
 	font-family: "Tinos", serif;
@@ -270,7 +271,7 @@ section div .sign-up-text {
 	font-size: 17px;
 	line-height: 24px;
 }
-section div .sign-up-text span {
+#intro div .sign-up-text span {
 	font-family: "Libre Franklin", sans-serif;
 	font-weight: 700;
 	font-size: 14px;
@@ -278,7 +279,7 @@ section div .sign-up-text span {
 	font-style: normal;
 }
 
-section div .sign-up-btn {
+#intro div .sign-up-btn {
 	border: 1px solid black;
 	font-weight: 700;
 	border-radius: 5px;
