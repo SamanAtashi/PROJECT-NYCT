@@ -2,7 +2,7 @@
 
 > This project is a clone of the original website "nytimes.com".
 
-![screenshot](./Screenshot 2021-03-25 at 12.00.21)
+![screenshot](../main/PROJECT-NYCT/img/screenshot.png)
 
 ## Built With
 
