@@ -157,7 +157,7 @@ main {
 }
 
 /*
-?--------------------------------> Head of article
+?--------------------------------> Head of Sections
 */
 #head-and-icons {
 	width: 600px;
@@ -205,7 +205,7 @@ h1 {
 }
 
 /*
-?--------------------------------> Articles
+?--------------------------------> Sections
 */
 section {
 	width: 600px;
@@ -237,7 +237,43 @@ h4 {
 	font-size: 20px;
 	line-height: 30px;
 }
+section h4 {
+	border-top: 1px solid #888;
+	width: 600px;
+	height: 100px;
+	margin: 25px 0 15px 0;
+	padding-top: 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+section h4 .sign-up-text {
+	width: 495px;
+	height: 41px;
+	font-family: "Tinos", serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 24px;
+}
+section h4 .sign-up-text span {
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	font-style: normal;
+}
 
+section h4 .sign-up-btn {
+	border: 1px solid black;
+	font-weight: 700;
+	border-radius: 5px;
+	width: 80px;
+	height: 32px;
+	padding: 6px 12px 4px 12px;
+	background-color: white;
+	color: black;
+}
 main figure {
 	font-family: "Tinos", serif;
 	font-weight: 500;
