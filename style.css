@@ -80,7 +80,7 @@ header .top-center a img {
 ?--------------------------------> Left
 */
 header .nav-content-wrapper .top-left {
-    width: fit;
+    width: 220px;
     height: 26px;
     display: flex;
     justify-content: space-between;
