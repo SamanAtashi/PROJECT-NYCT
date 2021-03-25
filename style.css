@@ -497,11 +497,19 @@ main figure figcaption span {
     border: 5px solid brown;
     width: 852px;
     height: 295px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #between .main-1 .bigger-box-2 {
     border: 5px solid brown;
     height: 590px;
+}
+
+#between .main-1 .box-2 .small-box {
+    border: 5px solid rgb(255, 0, 255);
+    width: 272px;
+    height: 288px;
 }
 
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
