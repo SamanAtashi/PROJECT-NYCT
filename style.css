@@ -208,7 +208,8 @@ h1 {
 ?--------------------------------> Sections
 */
 section,
-#intro {
+#intro,
+.intro {
 	width: 600px;
 }
 
