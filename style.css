@@ -510,6 +510,18 @@ main figure figcaption span {
     border: 5px solid rgb(255, 0, 255);
     width: 272px;
     height: 288px;
+    display: flex;
+    flex-direction: column;
+}
+
+#between .main-1 .box-2 .small-box .three-parts {
+    border: 5px solid rgb(78, 173, 54);
+    flex-grow: 1;
+}
+
+#between .main-1 .box-2 .small-box .bigger-part {
+    border: 5px solid rgb(255, 174, 0);
+    flex-grow: 2;
 }
 
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
