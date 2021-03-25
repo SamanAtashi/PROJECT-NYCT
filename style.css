@@ -237,6 +237,20 @@ h4 {
 	font-size: 20px;
 	line-height: 30px;
 }
+main #additional-name {
+	width: 600px;
+	height: 53px;
+	font-family: "Libre Franklin", sans-serif;
+
+	font-size: 10px;
+	line-height: 18px;
+	font-style: normal;
+}
+main #additional-name h5 {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
 section h4 {
 	border-top: 1px solid #888;
 	width: 600px;
