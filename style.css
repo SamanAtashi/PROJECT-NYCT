@@ -150,6 +150,7 @@ header .top-right button:nth-child(2) {
 */
 
 main {
+    border: 5px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -448,10 +449,70 @@ main figure figcaption span {
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /*
+?                <<<<<<<<<<<<<<< Between >>>>>>>>>>>>>>>
+? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
+*/
+#between {
+    border: 5px solid green;
+    width: 1200px;
+    height: 1370px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#between .main-1 {
+    border: 5px solid red;
+    width: 852px;
+    height: 1360px;
+}
+
+#between .main-2 {
+    border: 5px solid lightskyblue;
+    width: 318px;
+    height: 1360px;
+}
+
+#between .main-1 .stack-1 {
+    border: 5px solid green;
+    height: 351px;
+}
+
+#between .main-1 .stack-2 {
+    border: 5px solid green;
+    height: 632px;
+}
+
+#between .main-1 .stack-3 {
+    border: 5px solid green;
+    height: 343px;
+}
+
+#between .main-1 .box-1 {
+    border: 5px solid brown;
+    width: 852px;
+    height: 56px;
+}
+
+#between .main-1 .box-2 {
+    border: 5px solid brown;
+    width: 852px;
+    height: 295px;
+}
+
+#between .main-1 .bigger-box-2 {
+    border: 5px solid brown;
+    height: 590px;
+}
+
+/* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*
 ?                <<<<<<<<<<<<<<< Footer >>>>>>>>>>>>>>>
 ? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
 */
+
 footer {
+    border: 5px solid blue;
     width: 1200px;
     height: 443px;
     display: flex;
