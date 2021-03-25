@@ -2,7 +2,7 @@
 
 > This project is a clone of the original website "nytimes.com".
 
-![screenshot](../main/PROJECT-NYCT/img/screenshot.png)
+![](/img/screenshot.png)
 
 ## Built With
 
