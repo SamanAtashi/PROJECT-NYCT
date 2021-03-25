@@ -1,18 +1,22 @@
 /* libre franklin fonts */
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 /* cheltenham font */
 @font-face {
 	font-family: "cheltenham-italic-700";
 	src: url(font/cheltenham-italic-700.ttf);
 }
+
 @font-face {
 	font-family: "cheltenham-normal-700";
 	src: url(font/cheltenham-normal-700.ttf);
 }
+
 @font-face {
 	font-family: "cheltenham-normal-500";
 	src: url(font/cheltenham-normal-500.ttf);
 }
+
 /* tinos = imperial font */
 @import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 
@@ -21,6 +25,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
 	background-color: white;
 	width: 100%;
@@ -48,6 +53,7 @@ header {
 	left: 0;
 	z-index: 2;
 }
+
 header .nav-content-wrapper {
 	width: 1605px;
 	height: 26px;
@@ -57,7 +63,8 @@ header .nav-content-wrapper {
 	margin: 0 135px;
 	padding: 4px 15px 2px;
 }
-/* 
+
+/*
 ?--------------------------------> Left
 */
 header .nav-content-wrapper .top-left {
@@ -66,17 +73,20 @@ header .nav-content-wrapper .top-left {
 	display: flex;
 	justify-content: space-between;
 }
+
 header .top-left a[href="menu"] img {
 	width: 17px;
 	height: 17px;
 	margin-right: 13px;
 }
+
 header .top-left a[href="search"] img {
 	width: 17px;
 	height: 17px;
 	margin-right: 13px;
 	margin-left: 13px;
 }
+
 #cosmos {
 	color: black;
 	font-family: "Libre Franklin", sans-serif;
@@ -86,14 +96,16 @@ header .top-left a[href="search"] img {
 	margin-left: 13px;
 	text-decoration: none;
 }
-/* 
+
+/*
 ?--------------------------------> Center
 */
 header .top-center a img {
 	width: 195px;
 	height: 26.48px;
 }
-/* 
+
+/*
 ?--------------------------------> Right
 */
 header .top-right button {
@@ -106,13 +118,16 @@ header .top-right button {
 	border-radius: 3px;
 	border-style: solid;
 }
+
 header .top-right button:hover {
 	background-color: rgb(50, 104, 145);
 }
+
 header .top-right button:nth-child(1) {
 	width: 119.25px;
 	height: 32px;
 }
+
 header .top-right button:nth-child(2) {
 	width: 63.41px;
 	height: 32px;
@@ -124,6 +139,7 @@ header .top-right button:nth-child(2) {
 	display: flex;
 	flex-direction: column;
 }
+
 /*
 ?                <<<<<<<<<<<<<<< Main >>>>>>>>>>>>>>>
 ? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
@@ -131,18 +147,21 @@ header .top-right button:nth-child(2) {
 img {
 	width: 100%;
 }
+
 main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-top: 60px;
 }
-/* 
+
+/*
 ?--------------------------------> Head of article
 */
 #head-and-icons {
 	width: 600px;
 }
+
 h1 {
 	color: rgb(19, 19, 19);
 	font-family: "cheltenham-italic-700";
@@ -153,6 +172,7 @@ h1 {
 	padding-top: 40px;
 	border-bottom: 1px solid #ccc;
 }
+
 .icons {
 	width: 285px;
 	margin-top: 20px;
@@ -160,30 +180,36 @@ h1 {
 	display: flex;
 	justify-content: space-between;
 }
+
 .icons > * {
 	background-color: rgb(238, 238, 238);
 	border-radius: 50%;
 	border: 0;
 }
+
 .icons > *:hover {
 	background-color: rgb(255, 255, 255);
 	border-radius: 50%;
 	border: 1px solid black;
 }
+
 .single-icon {
 	width: 27px;
 	height: 27px;
 }
+
 .single-icon img {
 	width: 17px;
 	height: 17px;
 }
-/* 
+
+/*
 ?--------------------------------> Articles
 */
 section {
 	width: 600px;
 }
+
 p {
 	color: rgb(45, 45, 45);
 	font-family: "Tinos", serif;
@@ -192,6 +218,7 @@ p {
 	line-height: 30px;
 	margin-bottom: 15px;
 }
+
 li,
 dd,
 dt {
@@ -201,6 +228,7 @@ dt {
 	line-height: 16px;
 	list-style: none;
 }
+
 h4 {
 	color: rgb(45, 45, 45);
 	font-family: "Tinos", serif;
@@ -208,6 +236,7 @@ h4 {
 	font-size: 20px;
 	line-height: 30px;
 }
+
 main figure {
 	font-family: "Tinos", serif;
 	font-weight: 500;
@@ -215,15 +244,18 @@ main figure {
 	line-height: 20px;
 	color: rgb(102, 102, 102);
 }
+
 main figure figcaption {
 	width: 850px;
-	margin: 4px 0px;
+	margin: 4px 0;
 }
+
 main figure figcaption span {
 	font-size: 13px;
 	color: #888;
 }
-/* 
+
+/*
 ?--------------------------------> 1st main pic
 */
 #first-image {
@@ -231,23 +263,27 @@ main figure figcaption span {
 	height: 675px;
 	margin: 100px;
 }
-/* 
+
+/*
 ?--------------------------------> 2nd main pic
 */
 #detailed-pic {
 	width: 945px;
 	height: 752px;
 }
+
 #detailed-pic .detailed-pic-head {
 	width: 945px;
 	height: 62px;
 }
+
 #detailed-pic .detailed-pic-head h4 {
 	font-family: "cheltenham-normal-700";
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 24px;
 }
+
 #detailed-pic .detailed-pic-head p {
 	font-family: "Tinos", serif;
 	font-weight: 500;
@@ -255,23 +291,27 @@ main figure figcaption span {
 	line-height: 20px;
 	color: rgb(102, 102, 102);
 }
+
 #second-image {
-	margin: 15px 0px;
+	margin: 15px 0;
 }
+
 #detailed-pic .description {
 	width: 945px;
 	position: absolute;
 	display: flex;
 	flex-direction: column;
 }
+
 #detailed-pic .description .upper-description {
 	width: 945px;
 	display: flex;
 	justify-content: space-between;
 	position: absolute;
 	top: 160px;
-	left: 0px;
+	left: 0;
 }
+
 #detailed-pic .description .lower-description {
 	width: 945px;
 	display: flex;
@@ -279,14 +319,16 @@ main figure figcaption span {
 	display: flex;
 	position: absolute;
 	top: 440px;
-	left: 0px;
+	left: 0;
 }
+
 #detailed-pic .description p {
 	width: 228px;
 	height: 120px;
 	font-size: 9px;
 }
-/* 
+
+/*
 ?--------------------------------> 3rd main pic
 */
 #third-image {
@@ -294,16 +336,17 @@ main figure figcaption span {
 	height: 481px;
 	margin: 100px;
 }
+
 #third-image figcaption {
 	width: 700px;
 }
-/* 
+
+/*
 ?--------------------------------> Aside
 */
 aside {
 	width: 230px;
 	height: 321px;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -311,6 +354,7 @@ aside {
 	left: 1400px;
 	top: 2200px;
 }
+
 aside h5 {
 	font-family: "Libre Franklin", sans-serif;
 	font-weight: 700;
@@ -320,6 +364,7 @@ aside h5 {
 	border-bottom: 1px solid black;
 	margin-bottom: 2px;
 }
+
 aside div {
 	width: 210px;
 	height: 78px;
@@ -327,6 +372,7 @@ aside div {
 	justify-content: center;
 	align-items: center;
 }
+
 aside div a {
 	width: 125px;
 	height: 68px;
@@ -336,12 +382,15 @@ aside div a {
 	font-size: 14px;
 	line-height: 17px;
 }
+
 aside div img {
 	width: 75px;
 	height: 75px;
 	margin-right: 12px;
 }
+
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
 /*
 ?                <<<<<<<<<<<<<<< Footer >>>>>>>>>>>>>>>
 ? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
@@ -353,12 +402,14 @@ footer {
 	flex-direction: column;
 	justify-content: space-between;
 }
+
 footer a {
 	color: black;
 	text-decoration: none;
 	font-size: 14px;
 }
-/* 
+
+/*
 ?--------------------------------> Head of footer
 */
 #footer-head {
@@ -369,38 +420,45 @@ footer a {
 	height: 44px;
 	border-top: 4px double black;
 }
+
 #footer-head img {
 	width: 184px;
 	height: 24px;
 }
-/* 
+
+/*
 ?--------------------------------> Main body
 */
 #middle-footer {
 	flex-basis: 100%;
 	display: flex;
 }
-/* 
+
+/*
 Todo -------------> main-footer
 */
 #middle-footer .main-footer {
 	display: flex;
 	margin-top: 10px;
 }
+
 dl {
 	width: 197px;
 	height: 385px;
 }
+
 dt {
 	width: 150px;
 	height: 25px;
 	font-weight: bold;
 }
+
 dd {
 	width: 150px;
 	height: 23px;
 }
-/* 
+
+/*
 Todo -------------> side-footer
 */
 #middle-footer .side-footer {
@@ -412,6 +470,7 @@ Todo -------------> side-footer
 	width: 197px;
 	height: 385px;
 }
+
 #middle-footer .side-footer .bold-links a {
 	font-family: "Libre Franklin", sans-serif;
 	font-weight: 700;
@@ -419,15 +478,17 @@ Todo -------------> side-footer
 	line-height: 15px;
 	width: 197px;
 	height: 23px;
-	margin: 3px 0px;
+	margin: 3px 0;
 	display: flex;
 	flex-direction: column;
 	display: inline-block;
 }
+
 #middle-footer .side-footer .bold-links a:nth-child(1) {
 	font-weight: 600;
 	font-size: 13px;
 }
+
 #middle-footer .side-footer .bold-links a img {
 	width: 15px;
 	height: 15px;
@@ -439,12 +500,12 @@ Todo -------------> side-footer
 	font-size: 11px;
 	width: 150px;
 	height: 23px;
-	margin: 3px 0px;
+	margin: 3px 0;
 	display: flex;
 	flex-direction: column;
 }
 
-/* 
+/*
 ?--------------------------------> Lower part of footer
 */
 #lower-footer {
@@ -455,10 +516,12 @@ Todo -------------> side-footer
 	padding: 10px;
 	border-top: 1px solid black;
 }
+
 #lower-footer ul {
 	display: flex;
 	justify-content: space-between;
 }
+
 #lower-footer ul li a {
 	font-size: 11px;
 }
