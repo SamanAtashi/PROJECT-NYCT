@@ -365,6 +365,43 @@ main figure figcaption span {
 }
 
 /*
+?---------------> middle subscription
+*/
+
+#intro .middle-subscribe {
+    border-top: 0;
+    width: 600px;
+    height: 76px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+#intro .middle-subscribe p {
+    margin: 0;
+}
+
+#intro .middle-subscribe a {
+    color: #326891;
+    font-weight: 900;
+}
+
+#intro .middle-subscribe .double-border {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin: 0;
+    width: 76px;
+    height: 79px;
+    position: absolute;
+    top: 0;
+    left: 264px;
+}
+
+/*
 ?--------------------------------> 1st main pic
 */
 
