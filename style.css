@@ -36,6 +36,10 @@ body {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 img {
     width: 100%;
 }
@@ -150,7 +154,6 @@ header .top-right button:nth-child(2) {
 */
 
 main {
-    border: 5px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -453,7 +456,6 @@ main figure figcaption span {
 ? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
 */
 #between {
-    border: 5px solid green;
     width: 1200px;
     height: 1370px;
     display: flex;
@@ -478,9 +480,25 @@ main figure figcaption span {
 }
 
 #between .main-2 {
-    border: 5px solid lightskyblue;
     width: 318px;
     height: 1360px;
+    display: flex;
+    flex-direction: column;
+}
+
+#between .main-2 .main-2-text {
+    width: 307px;
+    border-top: 1px solid rgb(206, 204, 204);
+    font-family: "cheltenham-normal-500", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#between .main-2 .main-2-text a {
+    padding: 20px 0;
 }
 
 #between .main-1 .stack-1 {
@@ -495,12 +513,24 @@ main figure figcaption span {
     height: 343px;
 }
 
-#between .main-1 .box-1 {
+#between .box-1 {
     border-top: 1px solid black;
-    margin: 15px 0 25px 0;
-    padding: 15px 0 10px 0;
-    height: 25px;
+    height: 55px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
 }
+
+/* #between .main-1 .box-1 {
+    border-top: 1px solid black;
+    height: 55px;
+    display: flex;
+    align-items: center;
+} */
+
+/* #between .main-1 .box-1 h5 {
+    border: 1px solid black;
+} */
 
 #between .main-1 .box-2 {
     height: 295px;
@@ -630,9 +660,9 @@ main figure figcaption span {
 */
 
 footer {
-    border: 5px solid blue;
     width: 1200px;
     height: 443px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
