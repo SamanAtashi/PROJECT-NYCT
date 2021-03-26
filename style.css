@@ -524,6 +524,16 @@ main figure figcaption span {
     flex-grow: 2;
 }
 
+#between .main-1 .box-2 .small-box .three-parts img {
+    width: 272px;
+    height: 181px;
+}
+
+#between .main-1 .box-2 .small-box .row-1-small-pic img {
+    width: 90px;
+    height: 90px;
+}
+
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /*
