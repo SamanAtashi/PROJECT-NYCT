@@ -560,6 +560,31 @@ main figure figcaption span {
     margin: 5px 0 9px 0;
 }
 
+#between .main-1 .box-2 .small-box .text-under-pic {
+    height: 16px;
+}
+
+#between .main-1 .box-2 .small-box .text-under-pic p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#between .main-1 .box-2 .small-box .main-text {
+    height: 65px;
+}
+
+#between .main-1 .box-2 .small-box .main-text p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#between .main-1 .box-2 .small-box .main-text p span {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 5px;
+    display: block;
+}
+
 #between .main-1 .box-2 .small-box .bigger-part {
     border: 5px solid rgb(255, 174, 0);
     flex-grow: 2;
