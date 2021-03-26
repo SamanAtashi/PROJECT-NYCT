@@ -439,7 +439,6 @@ main figure figcaption span {
     margin-top: 2px;
 }
 
-/* ------------------------------------------------------------------------- */
 #detailed-pic .description {
     /* border: 5px solid purple; */
     width: 945px;
@@ -468,8 +467,6 @@ main figure figcaption span {
     line-height: 17px;
     margin-right: 5px;
 }
-
-/* ------------------------------------------------------------------------- */
 
 #detailed-pic .second-image {
     width: 945px;
@@ -501,6 +498,7 @@ main figure figcaption span {
 .youtubed iframe {
     width: 600px;
     height: 338px;
+    border: 0;
 }
 
 .youtubed p {
