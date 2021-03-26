@@ -460,6 +460,18 @@ main figure figcaption span {
     justify-content: space-between;
 }
 
+#between h5 {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#between a {
+    text-decoration: none;
+    color: black;
+}
+
 #between .main-1 {
     border: 5px solid red;
     width: 852px;
@@ -498,6 +510,7 @@ main figure figcaption span {
     width: 852px;
     height: 295px;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -507,12 +520,13 @@ main figure figcaption span {
 }
 
 #between .main-1 .box-2 .small-box {
-    border: 5px solid rgb(255, 0, 255);
+    border: 1px solid gray;
     width: 272px;
     height: 288px;
     display: flex;
     flex-direction: column;
 }
+
 
 #between .main-1 .box-2 .small-box .three-parts {
     border: 5px solid rgb(78, 173, 54);
@@ -520,10 +534,30 @@ main figure figcaption span {
 }
 
 #between .main-1 .box-2 .small-box .three-parts p {
-    font-family: "Libre Franklin", sans-serif;
+    font-family: "cheltenham-normal-500", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#between .main-1 .stack-1 .box-2 .small-box p {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
+    line-height: 19px;
+}
+
+#between .main-1 .box-2 .small-box .row-1-last p {
+    color: #326891;
+    font-weight: 900;
+}
+
+#between .main-1 .stack-1 .box-2 .small-box p span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
     line-height: 15px;
+    display: block;
+    margin: 5px 0 9px 0;
 }
 
 #between .main-1 .box-2 .small-box .bigger-part {
