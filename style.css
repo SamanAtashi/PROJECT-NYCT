@@ -473,7 +473,6 @@ main figure figcaption span {
 }
 
 #between .main-1 {
-    border: 5px solid red;
     width: 852px;
     height: 1360px;
 }
@@ -485,29 +484,25 @@ main figure figcaption span {
 }
 
 #between .main-1 .stack-1 {
-    border: 5px solid green;
     height: 351px;
 }
 
 #between .main-1 .stack-2 {
-    border: 5px solid green;
     height: 632px;
 }
 
 #between .main-1 .stack-3 {
-    border: 5px solid green;
     height: 343px;
 }
 
 #between .main-1 .box-1 {
-    border: 5px solid brown;
-    width: 852px;
-    height: 56px;
+    border-top: 1px solid black;
+    margin: 15px 0 25px 0;
+    padding: 15px 0 10px 0;
+    height: 25px;
 }
 
 #between .main-1 .box-2 {
-    border: 5px solid brown;
-    width: 852px;
     height: 295px;
     display: flex;
     justify-content: space-between;
@@ -515,12 +510,10 @@ main figure figcaption span {
 }
 
 #between .main-1 .bigger-box-2 {
-    border: 5px solid brown;
     height: 590px;
 }
 
 #between .main-1 .box-2 .small-box {
-    border: 1px solid gray;
     width: 272px;
     height: 288px;
     display: flex;
@@ -529,7 +522,6 @@ main figure figcaption span {
 
 
 #between .main-1 .box-2 .small-box .three-parts {
-    border: 5px solid rgb(78, 173, 54);
     flex-grow: 1;
 }
 
@@ -537,6 +529,11 @@ main figure figcaption span {
     font-family: "cheltenham-normal-500", Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 22px;
+}
+
+#between .main-1 .stack-1 .box-2 .row-1-borders {
+    border: 1px solid rgb(160, 160, 160);
+    padding: 10px;
 }
 
 #between .main-1 .stack-1 .box-2 .small-box p {
@@ -557,16 +554,18 @@ main figure figcaption span {
     font-size: 20px;
     line-height: 15px;
     display: block;
-    margin: 5px 0 9px 0;
 }
 
 #between .main-1 .box-2 .small-box .text-under-pic {
-    height: 16px;
+    height: 17px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #between .main-1 .box-2 .small-box .text-under-pic p {
-    font-size: 14px;
-    margin-top: 5px;
+    color: rgb(153, 153, 153);
+    font-size: 11px;
+    padding-bottom: 5px;
 }
 
 #between .main-1 .box-2 .small-box .main-text {
@@ -582,20 +581,22 @@ main figure figcaption span {
     font-size: 12px;
     line-height: 16px;
     margin-top: 5px;
+    color: rgb(153, 153, 153);
     display: block;
 }
 
 #between .main-1 .box-2 .small-box .bigger-part {
-    border: 5px solid rgb(255, 174, 0);
     flex-grow: 2;
+    height: 181px;
 }
 
 #between .main-1 .box-2 .small-box .three-parts img {
     width: 272px;
-    height: 181px;
+    height: 190px;
 }
 
 #between .main-1 .box-2 .small-box .row-1-small-pic {
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
 }
