@@ -519,6 +519,13 @@ main figure figcaption span {
     flex-grow: 1;
 }
 
+#between .main-1 .box-2 .small-box .three-parts p {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+}
+
 #between .main-1 .box-2 .small-box .bigger-part {
     border: 5px solid rgb(255, 174, 0);
     flex-grow: 2;
