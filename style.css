@@ -367,6 +367,7 @@ main figure figcaption span {
 /*
 ?--------------------------------> 1st main pic
 */
+
 #first-image {
     width: 1200px;
     height: 675px;
@@ -376,64 +377,77 @@ main figure figcaption span {
 /*
 ?--------------------------------> 2nd main pic
 */
+
 #detailed-pic {
     width: 945px;
     height: 752px;
-}
-
-#detailed-pic .detailed-pic-head {
-    width: 945px;
-    height: 62px;
+    position: relative;
+    margin: 35px;
 }
 
 #detailed-pic .detailed-pic-head h4 {
     font-family: "cheltenham-normal-700", Arial, Helvetica, sans-serif;
-    font-size: 20px;
     font-weight: 700;
+    font-size: 20px;
     line-height: 24px;
 }
 
 #detailed-pic .detailed-pic-head p {
-    font-family: "Tinos", serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    font-family: "cheltenham-normal-500", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
     color: rgb(102, 102, 102);
+    margin-bottom: 0;
+    margin-top: 2px;
 }
 
-#second-image {
-    margin: 15px 0;
-}
-
+/* ------------------------------------------------------------------------- */
 #detailed-pic .description {
+    /* border: 5px solid purple; */
     width: 945px;
-    position: absolute;
+    height: 576px;
     display: flex;
-    flex-direction: column;
-}
-
-#detailed-pic .description .upper-description {
-    width: 945px;
-    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-end;
+    z-index: 1;
     position: absolute;
-    top: 160px;
-    left: 0;
-}
-
-#detailed-pic .description .lower-description {
-    width: 945px;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 440px;
-    left: 0;
 }
 
 #detailed-pic .description p {
     width: 228px;
     height: 120px;
-    font-size: 9px;
+    font-family: sans-serif, Arial, Helvetica;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0;
+}
+
+#detailed-pic .description p span {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 17px;
+    margin-right: 5px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+#detailed-pic .second-image {
+    width: 945px;
+    margin: 15px 0;
+    position: relative;
+}
+
+#detailed-pic .second-image img {
+    height: 576px;
+}
+
+#detailed-pic .second-image hr {
+    width: 8%;
+    border: 0.5px solid rgb(26, 26, 26);
+    margin: 24px 0 11px 0;
 }
 
 /*
@@ -581,7 +595,6 @@ main figure figcaption span {
     display: flex;
     flex-direction: column;
 }
-
 
 #between .main-1 .box-2 .small-box .three-parts {
     flex-grow: 1;
