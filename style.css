@@ -529,9 +529,30 @@ main figure figcaption span {
     height: 181px;
 }
 
+#between .main-1 .box-2 .small-box .row-1-small-pic {
+    display: flex;
+    justify-content: space-between;
+}
+
 #between .main-1 .box-2 .small-box .row-1-small-pic img {
     width: 90px;
     height: 90px;
+}
+
+#between .main-1 .box-2 .small-box .row-1-small-pic button {
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#between .main-1 .box-2 .small-box .row-1-small-pic button img {
+    width: 32px;
+    height: 32px;
 }
 
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
