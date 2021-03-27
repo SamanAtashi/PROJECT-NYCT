@@ -156,14 +156,16 @@ header .top-center a img {
 main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 60px;
+    height: 9688px;
 }
 
 /*
 ?--------------------------------> Head of Sections
 */
 .head-and-icons {
+    margin-top: 60px;
     width: 600px;
 }
 
@@ -411,7 +413,7 @@ main figure figcaption span {
 .first-image {
     width: 1200px;
     height: 675px;
-    margin: 100px;
+    margin: 10px 100px 100px 100px;
 }
 
 /*
