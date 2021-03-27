@@ -710,6 +710,7 @@ main figure figcaption span {
 .between .main-1 .stack-1 .box-2 .row-1-borders {
   border: 1px solid rgb(160, 160, 160);
   padding: 10px;
+  cursor: pointer;
 }
 
 .between .main-1 .stack-1 .box-2 .small-box p {
