@@ -116,7 +116,7 @@ header .top-center a img {
 /*
 ?--------------------------------> Right
 */
-.top-right button {
+.top-right-blue-btn button {
     color: white;
     background-color: rgb(86, 123, 149);
     font-family: "Libre Franklin", sans-serif;
@@ -127,16 +127,16 @@ header .top-center a img {
     border-style: solid;
 }
 
-.top-right button:hover {
+.top-right-blue-btn button:hover {
     background-color: rgb(50, 104, 145);
 }
 
-.top-right button:nth-child(1) {
+.top-right-blue-btn button:nth-child(1) {
     width: 119.25px;
     height: 32px;
 }
 
-.top-right button:nth-child(2) {
+.top-right-blue-btn button:nth-child(2) {
     width: 63.41px;
     height: 32px;
 }
@@ -183,7 +183,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .icons>* {
@@ -523,6 +523,7 @@ main figure figcaption span {
 /*
 ?--------------------------------> 3rd main pic
 */
+
 .third-image {
     width: 720px;
     height: 481px;
@@ -531,6 +532,43 @@ main figure figcaption span {
 
 .third-image figcaption {
     width: 700px;
+}
+
+/*
+?--------------------------------> Comments
+*/
+
+.comments {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.comments p {
+    color: rgb(102, 102, 102);
+    font-family: "Libre Franklin", sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    height: 32px;
+}
+
+.comments a {
+    color: rgb(102, 102, 102);
+    text-decoration: underline;
+}
+
+.comments .top-right-blue-btn {
+    display: flex;
+    align-items: center;
+}
+
+.comments .top-right-blue-btn button[type="button"] {
+    width: 310px;
+    height: 34px;
+    padding: 5px 0;
 }
 
 /* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
